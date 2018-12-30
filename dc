@@ -1,0 +1,36 @@
+/* to print desired pattern
+i/p:
+4
+1234
+234
+34
+4
+
+i/p:
+7
+7654321
+654321
+54321
+4321
+321
+21
+1
+*/
+#include <iostream>
+ 
+using namespace std;
+
+int main(int argc, char** argv)
+{
+int n,i,j;
+cin>>n;
+i=1;
+for(i=1;i<=n;i++)
+{
+    for(j=i;j<=n;j++)
+    {
+        cout<<j<<" ";
+    }
+cout<<"\n";
+    }
+}
